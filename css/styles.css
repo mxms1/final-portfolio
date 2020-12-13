@@ -327,7 +327,7 @@ height: 80px;
   position: relative;
   width: 90vw;
   height: 90vw;
-  margin: 5vh auto 13vh auto;
+  margin: 11vh auto 13vh auto;
 }
 
 
@@ -336,6 +336,25 @@ width: 90vw;
 
 
 }
+
+
+
+.aLittleFlex{
+display: block;
+
+}
+
+
+
+.profilePicture{
+  width: min-content;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 @media (min-width:356px) {
   .main {
     width: 80vw;
@@ -369,6 +388,16 @@ width: 90vw;
 
 
 @media (min-width:1024px) {
+
+  .profilePicture{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .aLittleFlex{
+  display: flex;
+
+  }
 
   .main{
 margin-left:100px;
@@ -636,4 +665,16 @@ box-shadow: 5px 5px blue, 10px 10px yellow, 15px 15px rgba(23, 191, 230, 0.89);
   left:75%;
   top: 80%;
   background-color: #FFFF66;
+}
+
+
+
+
+
+
+
+
+.onTheSide{
+margin: 5vw;
+
 }
