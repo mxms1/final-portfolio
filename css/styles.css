@@ -678,3 +678,9 @@ box-shadow: 5px 5px blue, 10px 10px yellow, 15px 15px rgba(23, 191, 230, 0.89);
 margin: 5vw;
 
 }
+
+
+#image{
+box-shadow: pink 6px 0px;
+
+}
