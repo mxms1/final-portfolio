@@ -1,4 +1,5 @@
 //Variables
+
 const lastName = document.getElementsByClassName('lastName')[0];
 const header = document.getElementsByTagName('header')[0];
 const ulNav = document.getElementsByClassName('ulNav')[0];
@@ -86,7 +87,7 @@ if(i == 1 || i == 3){
 }
 }
 
-const computerh3 = document.getElementsByClassName('computerh3')[0];
+const computerp = document.getElementsByClassName('computerp')[0];
 const explanatoryText = document.getElementsByClassName('explanatoryText')[0];
 
 
@@ -98,8 +99,8 @@ var arrofQuarters = [...quarters];
 for(let i = 0; i < arrofQuarters.length; i++){
 
 arrofQuarters[i].addEventListener('mouseover', ()=>{
-  computerh3.innerHTML= `${arr[i]}`;
-  computerh3.style.backgroundColor = `${colors[i]}`;
+  computerp.innerHTML= `${arr[i]}`;
+  computerp.style.backgroundColor = `${colors[i]}`;
   explanatoryText.innerHTML= `${explanation[i]}`;
 
 
