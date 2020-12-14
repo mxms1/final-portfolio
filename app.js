@@ -94,7 +94,7 @@ const phoneh3 = document.getElementsByClassName('phoneh3');
 
 const arr = ['Skills', 'Future', 'Qualifications', 'Life'];
 const colors = ['#50BFE6','#FD5B78','#FF9933','#FFFF66'];
-const explanation = ['Things I can do','Things I want to do','Things I have done','Me'];
+const explanation = ['Things I can do','Things I want to accomplish','My exam results','Get to know me a little better'];
 var arrofQuarters = [...quarters];
 for(let i = 0; i < arrofQuarters.length; i++){
 
