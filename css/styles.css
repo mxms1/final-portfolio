@@ -1,7 +1,5 @@
 
 
-
-
 *{
   font-family: 'Poppins', sans-serif;
 
@@ -130,7 +128,7 @@ display: block;
 .none{
   display: none;
 }
-///
+
 
 .contactInfo{
   display: flex;
@@ -269,7 +267,7 @@ div[class="project"] > img{
 
 
 
-.computerh3{
+.computerp{
 display: none;
 
 }
@@ -281,7 +279,6 @@ display: none;
 
 
 
-//
 
 
 .tooltip {
@@ -424,7 +421,7 @@ margin-right: auto;
 
 }
 
-.computerh3{
+.computerp{
 display: block;
 
 }

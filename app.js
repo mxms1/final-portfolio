@@ -1,5 +1,4 @@
 //Variables
-const firstName = document.getElementsByClassName('firstName')[0];
 const lastName = document.getElementsByClassName('lastName')[0];
 const header = document.getElementsByTagName('header')[0];
 const ulNav = document.getElementsByClassName('ulNav')[0];
@@ -89,7 +88,7 @@ if(i == 1 || i == 3){
 
 const computerh3 = document.getElementsByClassName('computerh3')[0];
 const explanatoryText = document.getElementsByClassName('explanatoryText')[0];
-const phoneh3 = document.getElementsByClassName('phoneh3');
+
 
 
 const arr = ['Skills', 'Future', 'Qualifications', 'Life'];
