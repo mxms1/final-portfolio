@@ -252,7 +252,7 @@ place-self: center;
 
 div[class="project"] > img{
   margin: auto;
-  width: inherit;
+  width: 100%;
 
 }
 
